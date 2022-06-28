@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from 'react-redux'
+import { decrement, increment, incrementByAmount, double } from './store/slicers/counter';
 import logo from './logo.svg'
 import './App.css'
-import { decrement, increment, incrementByAmount, double } from './store/slicers/counter';
 
 function App() {
 
